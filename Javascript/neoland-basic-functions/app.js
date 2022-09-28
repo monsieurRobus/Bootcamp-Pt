@@ -26,7 +26,7 @@ function findLongestWord(a) {
 
 // Iteration 3
 
-const numbers = [1, 2, 3, 5, 45, 37, 58];
+//const numbers = [1, 2, 3, 5, 45, 37, 58];
 
 function sumAll(a) {
 
@@ -38,4 +38,17 @@ function sumAll(a) {
     return suma;
 }
 
-console.log(sumAll(numbers));
+// Iterar 4
+
+const numbers = [12, 21, 38, 5, 45, 37, 6];
+function average(a) {
+
+    let suma = 0;
+
+    for (let i=0; i<a.length; i++)
+        suma+=a[i];
+    
+    return suma/a.length;
+}
+
+console.log(average(numbers));
