@@ -24,4 +24,18 @@ function findLongestWord(a) {
 
 }
 
-console.log(findLongestWord(avengers))
+// Iteration 3
+
+const numbers = [1, 2, 3, 5, 45, 37, 58];
+
+function sumAll(a) {
+
+    let suma = 0;
+
+    for (let i=0;i<a.length;i++)
+        suma+=a[i];
+
+    return suma;
+}
+
+console.log(sumAll(numbers));
