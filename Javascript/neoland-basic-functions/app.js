@@ -52,3 +52,20 @@ function average(a) {
 }
 
 console.log(average(numbers));
+
+// Iterar 5
+const mixedElements = [6, 1, 'Rayo', 1, 'vallecano', '10', 'upgrade', 8, 'hub'];
+function averageWord(a) {
+    let suma = 0;
+
+    for (let i=0;i<a.length;i++)
+        if(typeof(a[i])==="number")
+            suma+=a[i]
+        else
+            suma+=a[i].length
+    
+    return suma;
+
+}
+
+console.log(averageWord(mixedElements));
