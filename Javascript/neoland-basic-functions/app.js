@@ -111,3 +111,32 @@ function removeDuplicates_2(a){
 
     return a;
 }
+
+
+// Iterar 7
+
+const nameFinder = [
+    'Peter',
+    'Steve',
+    'Tony',
+    'Natasha',
+    'Clint',
+    'Logan',
+    'Xabier',
+    'Bruce',
+    'Peggy',
+    'Jessica',
+    'Marc'
+];
+
+function finderName(a,b) {
+    for (let i=0;i<a.length;i++)
+        {
+            console.log(a[i]);
+        if( b === a[i] )
+            return [true,i];
+        }       
+        return false;
+}
+
+console.log(finderName(nameFinder,'Peggy'));
